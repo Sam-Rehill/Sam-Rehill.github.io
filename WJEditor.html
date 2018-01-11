@@ -1,0 +1,73 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Suit Editor</title>
+<link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet">	
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<link href="Css/CSS.css" rel="stylesheet" type="text/css">
+<script  src="Js/Js.js"></script>
+</head>
+<body>
+ 
+	
+	<br>
+	<br>
+	<br>
+	<p class="subtitle lines"><span>Wing Jacket Order</span></p>
+	<form class="innerform" id="contactform">
+    
+    <label >Main Colour</label>
+    <select id ="colour" name="Main" onchange="wjchange()">
+      <option value="black">Black</option>
+      <option value="white">White</option>
+      <option value="red">Red</option>
+	  <option value="blue">Blue</option>
+    </select>
+	<label >Secondary colour</label>
+    <select id="accent" name="second" onchange="wjchange()">
+      <option value="black">Black</option>
+      <option value="white">White</option>
+      <option value="grey">Grey</option>
+    </select>
+	<img id="suit" src="Assets/defaultsuit3.png" alt="">
+  </form>
+  <form action="Order.html">
+  <button class="button button1">Order Now</button>
+  </form>
+  
+  
+	<br>
+	<br>
+	<br>
+	<br>
+<header id="scrollingheader">
+		<ul >
+<li><a href="criticallog.html">Critical log</a></li>
+		<li><a href="demo.html">Demo</a></li>		
+		<li><a href="Contact.html">Contact</a></li>
+		
+		<li class="dropdown">
+   			 <a href="Products.html" class="dropbtn">Products</a>
+ 			   <div class="dropdown-content">
+ 		    	 <a href="FFEditor.html">Freefly Skydiving</a>
+ 		    	 <a href="FSEditor.html">Formation Skydiving</a>
+ 		    	 <a href="WJEditor.html">Wing Jacket</a>
+	  		  </div>			
+ 			</li>
+			<li><a href="Gallery.html">Gallery</a></li>
+ 	 		<li><a href="Index.html">Home</a></li>
+  			
+  	  		
+		</ul>
+	</header>	
+<footer>
+		<ul>
+ 	 		<li><a href="https://www.instagram.com/jediairwear.co.uk/"><img alt="Error" src="Assets/ilogo.png" ></a></li>
+  			<li><a href="https://www.facebook.com/jediairwear"><img alt="Error" src="Assets/flogo.png" ></a></li>  	 
+			<li><a href="https://twitter.com/TeamJediairwear"><img alt="Error" src="Assets/tlogo.png" ></a></li> 
+			<li id="rightitem"><h1>Production Time: 3 weeks</h1></li>
+		</ul>
+	</footer>
+</body>
+</html>
